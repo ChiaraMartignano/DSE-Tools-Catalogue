@@ -35,6 +35,7 @@
                             <li><button onclick="showSection('overview')" class="block px-4 py-2 w-full text-left hover:bg-blue-50">Overview</button></li>
                             <li><button onclick="showSection('list')" class="block px-4 py-2 w-full text-left hover:bg-blue-50">Full List</button></li>
                             <li><button onclick="showSection('editions')" class="block px-4 py-2 w-full text-left hover:bg-blue-50">Browse by Digital Edition</button></li>
+                            <li><button onclick="showSection('research-activities')" class="block px-4 py-2 w-full text-left hover:bg-blue-50">Browse by Research Activity</button></li>
                         </ul>
                     </li>
 
@@ -91,6 +92,24 @@
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </div>
                     </div>
+                    <div onclick="showSection('editions')" class="group flex items-center justify-between p-4 border border-gray-200 rounded-xl hover:border-cyan-400 hover:shadow-md transition cursor-pointer bg-white">
+                        <div>
+                            <h4 class="font-bold text-cyan-600">Digital Editions</h4>
+                            <p class=" text-black-500">Check out the tools in action and how other scholars have used them successfully</p>
+                        </div>
+                        <div class="bg-cyan-400 text-white p-2 rounded-full group-hover:bg-cyan-500 transition">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                    </div>
+                    <div onclick="showSection('research-activities')" class="group flex items-center justify-between p-4 border border-gray-200 rounded-xl hover:border-cyan-400 hover:shadow-md transition cursor-pointer bg-white">
+                        <div>
+                            <h4 class="font-bold text-cyan-600">Research Activities</h4>
+                            <p class=" text-black-500">Find the right tool for your research goals</p>
+                        </div>
+                        <div class="bg-cyan-400 text-white p-2 rounded-full group-hover:bg-cyan-500 transition">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -142,7 +161,7 @@
             <iframe id="editions" class="hidden w-full h-full section-content" src="https://airtable.com/embed/appmd2Z1LsaYMaYEF/shrVo2qJoYr6CRrm8?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
             <iframe id="list" class="hidden w-full h-full section-content" src="https://airtable.com/embed/appmd2Z1LsaYMaYEF/shrKIbxTh4y6ygCyx?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
             <iframe id="overview" class="hidden w-full h-full section-content" src="https://airtable.com/embed/appmd2Z1LsaYMaYEF/shrZHt402No0cuB55?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="100%" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
+            <iframe id="research-activities" class="hidden w-full h-full section-content" src="https://airtable.com/embed/appmd2Z1LsaYMaYEF/shrJCuOkakOkuArYl?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
         <div id="documentation" class="hidden p-10 section-content h-full overflow-auto">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
